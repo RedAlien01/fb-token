@@ -5,9 +5,10 @@
 
 import requests, re
 
-print('\n** < GET FB ACCESS TOKEN FROM COOKIE > **\n')
-print('[+] Writted by : Meow404 - PenucuriCode\n')
-print('[+] Github : Meow404 - PenucuriCode\n')
+print("\n\033[32;1m# ============ -+ GET FB ACCESS TOKEN FROM COOKIE +- ============ \033[0m")
+print("\033[32;1m[+] Github : https://github/penucuriCode\033[0m")
+print("\033[32;1m[+] Exploit Author : penucuriCode (Meow404)\033[0m")
+print("\033[32;1m# ===================================================\033[0m")
 cookie = input('* Cookie ? : ')
 try:
     data = requests.get('https://m.facebook.com/composer/ocelot/async_loader/?publisher=feed#_=_', headers = {
